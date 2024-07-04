@@ -5,7 +5,6 @@ The OutSteel tool is a simple document stealer. It searches for potentially sens
 
 ![imageedit_2_8449936728](https://github.com/S3N4T0R-0X0/Ember-Bear-APT/assets/121706460/755eabf4-c79a-4910-bddf-9a0c945c5141)
 
-
 This attack included several stages including links to Zip archives that contain malicious shortcuts (LNK) within the spear phishing emails, as well as attachments in the form of PDF documents, Word documents, JavaScript files and Control Panel File (CPL) executables. Even the Word documents attached to emails have used a variety of techniques, including malicious macros, embedded JavaScript and the exploitation of CVE-2017-11882 to install payloads onto the system. With the exception of the CPL executables, most of the delivery mechanisms rely on PowerShell scripts to download and execute code from remote servers.
 
 1. Create the Word Document: Write a Word document (.docx) containing the exploitation of CVE-2017-11882 to install payloads onto the system.
